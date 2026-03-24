@@ -1,0 +1,33 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SexWithQiuQiWindow"
+		size = { width=100% height=100% }
+		position = { x = 0 y =0 }
+		background = {
+		    name = "bg"
+			quadTextureSprite ="GFX_tiled_air_bg"
+			alwaystransparent = yes
+		}
+		gridboxtype = {
+			name = "SexWithQiuQi_grid"
+			position = { x = 0 y = 0 }
+			size = { width = 1 height = 1 }
+			slotsize = { width = 10 height = 17 }
+			max_slots = { x = 1 y = 101 }
+			format = "UPPER_LEFT"
+		}
+	}
+	containerWindowType = {
+		name = "SexWithQiuQi_entry"
+		position = { x=247 y=5 }
+		size = { width = 1 height = 17 }
+		moveable = no
+		clipping = no
+		iconType = {
+		    name = AkinoEroShashin
+			position = { x = 0 y = 0 }
+			spriteType = GFX_navy_experience
+            pdx_tooltip = "SexWithQiuQi_tt"
+		}
+	}
+}

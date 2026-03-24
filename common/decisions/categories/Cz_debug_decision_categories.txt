@@ -1,0 +1,10 @@
+CzDEBUG_SexWithQiuQi_decisions = {
+	icon = GFX_DEBUG_thumbnail
+	allowed = {
+	}
+	visible = {
+		is_debug  = yes
+	}
+	visible_when_empty = yes
+	priority = 20000000
+}
