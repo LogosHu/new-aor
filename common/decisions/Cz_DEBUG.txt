@@ -23,6 +23,11 @@ CzDEBUG_SexWithQiuQi_decisions = {
 			add_to_array = { ROOT.SexWithQiuQiViewArray = 0 }
 			add_to_array = { ROOT.SexWithQiuQiViewArray = 4 }
 			add_to_array = { ROOT.SexWithQiuQiViewArray = 1 }
+			set_country_flag = PtyNmeUsed_Anarcho_SBQiuQi
+			set_country_flag = PtyNmeUsed_Anarcho_PigQiuQi
+			set_country_flag = PtyNmeUsed_Anarcho_CatQiuQi
+			set_country_flag = PtyNmeUsed_FRE_democratic_PigQiuQi
+			set_country_flag = PtyNmeUsed_CON_democratic_CatQiuQi
 		}
 	}
 }
