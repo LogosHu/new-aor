@@ -1,0 +1,80 @@
+ppr0 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@Anarcho
+	}
+}
+ppr1 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@Marxism
+	}
+}
+ppr2 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@PAR_socialism
+	}
+}
+ppr3 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@REL_socialism
+	}
+}
+ppr4 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@AGR_socialism
+	}
+}
+ppr5 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@SOC_democratic
+	}
+}
+ppr6 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@FRE_democratic
+	}
+}
+ppr7 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@CON_democratic
+	}
+}
+ppr8 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@AUT_democratic
+	}
+}
+ppr9 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@ISL_democratic
+	}
+}
+ppr10 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@Absolutism
+	}
+}
+ppr11 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@Fascism
+	}
+}
+ppr12 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { pp = party_popularity_100@Special }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}

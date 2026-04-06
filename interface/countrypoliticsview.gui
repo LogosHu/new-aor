@@ -55,15 +55,15 @@ guiTypes = {
 			position = { x = 258 y = 221 }
 			size = { width = 286 height = 154 }
 			clipping = yes
-			drag_scroll = { left middle }
-			verticalScrollbar = "right_vertical_slider"
+			#drag_scroll = { left middle }
+			#verticalScrollbar = "right_vertical_slider"
 			background = {
 				name = 1
 				quadTextureSprite = GFX_tiled_air_bg
-			}margin = { right = 25}
+			}margin = { right = 8}
 			gridBoxType = {
 				name = "parties_grid"
-				position = { x = 0 y = -2 }
+				position = { x = 88880 y = -2 }
 				size = { width = 100%% height = 100%% }
 				slotsize = { width = 230 height = 17 }
 				format = "UPPER_LEFT"

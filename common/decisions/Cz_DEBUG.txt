@@ -17,6 +17,12 @@ CzDEBUG_SexWithQiuQi_decisions = {
 			add_to_array = { ROOT.SexWithQiuQiViewArray = 1 }
 			add_to_array = { ROOT.SexWithQiuQiViewArray = 0 }
 			add_to_array = { ROOT.SexWithQiuQiViewArray = 4 }
+			add_to_array = { ROOT.SexWithQiuQiViewArray = 3 }
+			add_to_array = { ROOT.SexWithQiuQiViewArray = 2 }
+			add_to_array = { ROOT.SexWithQiuQiViewArray = 1 }
+			add_to_array = { ROOT.SexWithQiuQiViewArray = 0 }
+			add_to_array = { ROOT.SexWithQiuQiViewArray = 4 }
+			add_to_array = { ROOT.SexWithQiuQiViewArray = 1 }
 		}
 	}
 }

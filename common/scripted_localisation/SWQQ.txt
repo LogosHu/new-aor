@@ -1,0 +1,36 @@
+defined_text = {
+    name = SWQQNme
+    text = {
+        localization_key = SWQQNmeP[?SexWithQiuQi_index]
+    }
+}
+defined_text = {
+    name = GetAnarchoParty
+    text = {
+        trigger = { has_country_flag = PtyNmeUsed_Anarcho_SBQiuQi }
+        localization_key = SBQiuQi
+    }
+    text = {
+        localization_key = Anarcho
+    }
+}
+defined_text = {
+    name = GetMarxismParty
+    text = {
+        trigger = { has_country_flag = PtyNmeUsed_Marxism_PigQiuQi }
+        localization_key = PigQiuQi
+    }
+    text = {
+        localization_key = Marxism
+    }
+}
+defined_text = {
+    name = GetPAR_socialismParty
+    text = {
+        trigger = { has_country_flag = PtyNmeUsed_PAR_socialism_CatQiuQi }
+        localization_key = CatQiuQi
+    }
+    text = {
+        localization_key = PAR_socialism
+    }
+}
