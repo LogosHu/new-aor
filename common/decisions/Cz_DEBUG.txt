@@ -28,6 +28,8 @@ CzDEBUG_SexWithQiuQi_decisions = {
 			set_country_flag = PtyNmeUsed_Anarcho_CatQiuQi
 			set_country_flag = PtyNmeUsed_FRE_democratic_PigQiuQi
 			set_country_flag = PtyNmeUsed_CON_democratic_CatQiuQi
+			add_to_array = { ROOT.SWQQLeadPtyFacArray = 5 }
+			add_to_array = { ROOT.SWQQLeadPtyFacArray = 6 }
 		}
 	}
 }

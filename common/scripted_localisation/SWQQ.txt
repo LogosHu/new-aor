@@ -1,136 +1,55 @@
-defined_text = {
-    name = SWQQNme
-    text = {
-        localization_key = SWQQNmeP[?SexWithQiuQi_index]
-    }
+defined_text = { name = SWQQNme 
+    text = { localization_key = SWQQNmeP[?SexWithQiuQi_index] } 
 }
-defined_text = {
-    name = GetAnarchoParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_Anarcho_SBQiuQi }
-        localization_key = SBQiuQi
-    }
-    text = {
-        localization_key = Anarcho
-    }
+defined_text = { name = GetAnarchoParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_Anarcho_SBQiuQi } localization_key = SBQiuQi }
+    text = { localization_key = Anarcho }
 }
-defined_text = {
-    name = GetMarxismParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_Marxism_PigQiuQi }
-        localization_key = PigQiuQi
-    }
-    text = {
-        localization_key = Marxism
-    }
+defined_text = { name = GetMarxismParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_Marxism_PigQiuQi } localization_key = PigQiuQi }
+    text = { localization_key = Marxism }
 }
-defined_text = {
-    name = GetPAR_socialismParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_PAR_socialism_CatQiuQi }
-        localization_key = CatQiuQi
-    }
-    text = {
-        localization_key = PAR_socialism
-    }
+defined_text = { name = GetPAR_socialismParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_PAR_socialism_CatQiuQi } localization_key = CatQiuQi }
+    text = {  localization_key = PAR_socialism }
 }
-defined_text = {
-    name = GetREL_socialismParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_REL_socialism_REL_socialismQiuQi }
-        localization_key = REL_socialismQiuQi
-    }
-    text = {
-        localization_key = REL_socialism
-    }
+defined_text = { name = GetREL_socialismParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_REL_socialism_REL_socialismQiuQi } localization_key = REL_socialismQiuQi }
+    text = { localization_key = REL_socialism }
 }
-defined_text = {
-    name = GetAGR_socialismParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_AGR_socialism_CatQiuQi }
-        localization_key = CatQiuQi
-    }
-    text = {
-        localization_key = AGR_socialism
-    }
+defined_text = { name = GetAGR_socialismParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_AGR_socialism_CatQiuQi } localization_key = CatQiuQi }
+    text = { localization_key = AGR_socialism }
 }
-defined_text = {
-    name = GetSOC_democraticParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_SOC_democratic_PigQiuQi }
-        localization_key = PigQiuQi
-    }
-    text = {
-        localization_key = SOC_democratic
-    }
+defined_text = { name = GetSOC_democraticParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_SOC_democratic_PigQiuQi } localization_key = PigQiuQi }
+    text = { localization_key = SOC_democratic }
 }
-defined_text = {
-    name = GetFRE_democraticParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_FRE_democratic_PigQiuQi }
-        localization_key = PigQiuQi
-    }
-    text = {
-        localization_key = FRE_democratic
-    }
+defined_text = { name = GetFRE_democraticParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_FRE_democratic_PigQiuQi } localization_key = PigQiuQi }
+    text = { localization_key = FRE_democratic }
 }
-defined_text = {
-    name = GetCON_democraticParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_CON_democratic_CatQiuQi }
-        localization_key = CatQiuQi
-    }
-    text = {
-        localization_key = CON_democratic
-    }
+defined_text = { name = GetCON_democraticParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_CON_democratic_CatQiuQi } localization_key = CatQiuQi }
+    text = { localization_key = CON_democratic }
 }
-defined_text = {
-    name = GetAUT_democraticParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_AUT_democratic_AUT_democraticQiuQi }
-        localization_key = AUT_democraticQiuQi
-    }
-    text = {
-        localization_key = AUT_democratic
-    }
+defined_text = { name = GetAUT_democraticParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_AUT_democratic_AUT_democraticQiuQi } localization_key = AUT_democraticQiuQi }
+    text = { localization_key = AUT_democratic }
 }
-defined_text = {
-    name = GetISL_democraticParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_ISL_democratic_ISL_democraticQiuQi }
-        localization_key = ISL_democraticQiuQi
-    }
-    text = {
-        localization_key = ISL_democratic
-    }
+defined_text = { name = GetISL_democraticParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_ISL_democratic_ISL_democraticQiuQi } localization_key = ISL_democraticQiuQi }
+    text = { localization_key = ISL_democratic }
 }
-defined_text = {
-    name = GetAbsolutismParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_Absolutism_AbsolutismQiuQi }
-        localization_key = AbsolutismQiuQi
-    }
-    text = {
-        localization_key = Absolutism
-    }
+defined_text = { name = GetAbsolutismParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_Absolutism_AbsolutismQiuQi } localization_key = AbsolutismQiuQi }
+    text = { localization_key = Absolutism }
 }
-defined_text = {
-    name = GetFascismParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_Fascism_FascismQiuQi }
-        localization_key = FascismQiuQi
-    }
-    text = {
-        localization_key = Fascism
-    }
+defined_text = { name = GetFascismParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_Fascism_FascismQiuQi } localization_key = FascismQiuQi }
+    text = { localization_key = Fascism }
 }
-defined_text = {
-    name = GetSpecialParty
-    text = {
-        trigger = { has_country_flag = PtyNmeUsed_Special_SpecialQiuQi }
-        localization_key = SpecialQiuQi
-    }
-    text = {
-        localization_key = Special
-    }
+defined_text = { name = GetSpecialParty
+    text = { trigger = { has_country_flag = PtyNmeUsed_Special_SpecialQiuQi } localization_key = SpecialQiuQi }
+    text = { localization_key = Special }
 }

@@ -1,49 +1,9 @@
 scripted_gui = {
 	SexWithQiuQiWindow = {
-		context_type = player_context
-		window_name = "SexWithQiuQiWindow"
-		parent_window_name = "SexWithQiuQiView"
-		visible = { always = yes }
+		context_type = player_context window_name = "SexWithQiuQiWindow" parent_window_name = "SexWithQiuQiView" visible = { always = yes }
 		dynamic_lists = { SexWithQiuQi_grid = { array = ROOT.SexWithQiuQiViewArray entry_container = SexWithQiuQi_entry change_scope = no value = SexWithQiuQi_value index = SexWithQiuQi_index } }
 		triggers = {
-			cbg_click_enabled = {
-				set_temp_variable = { Threshold = 0 }
-				set_temp_variable = { base_y = 17 }
-				set_temp_variable = { temp_base_y = 0 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp0 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp1 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp2 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp3 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp4 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp5 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp6 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp7 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp8 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp9 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp10 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp11 }
-				add_to_temp_array = { array = temp_pp_array value = mtth:pp12 }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 0 } check_variable = { temp_pp_array^0 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 1 } check_variable = { temp_pp_array^1 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 2 } check_variable = { temp_pp_array^2 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 3 } check_variable = { temp_pp_array^3 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 4 } check_variable = { temp_pp_array^4 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 5 } check_variable = { temp_pp_array^5 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 6 } check_variable = { temp_pp_array^6 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 7 } check_variable = { temp_pp_array^7 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 8 } check_variable = { temp_pp_array^8 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 9 } check_variable = { temp_pp_array^9 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 10 } check_variable = { temp_pp_array^10 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				if = { limit = { check_variable = { SexWithQiuQi_index > 11 } check_variable = { temp_pp_array^11 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } }
-				set_temp_variable = { temp_lbg_y = temp_base_y }
-				set_temp_variable = { temp_cbg_y = temp_base_y }
-				set_temp_variable = { temp_ccb_y = temp_base_y }
-				set_temp_variable = { temp_nme_y = temp_base_y }
-				add_to_temp_variable = { temp_lbg_y = 5 }
-				add_to_temp_variable = { temp_cbg_y = 2 }
-				add_to_temp_variable = { temp_ccb_y = 6 }
-				add_to_temp_variable = { temp_nme_y = 4 }
-			}
+			cbg_click_enabled = { set_temp_variable = { Threshold = 0 } set_temp_variable = { base_y = 17 } set_temp_variable = { temp_base_y = 0 } add_to_temp_array = { array = temp_pp_array value = mtth:pp0 } add_to_temp_array = { array = temp_pp_array value = mtth:pp1 } add_to_temp_array = { array = temp_pp_array value = mtth:pp2 } add_to_temp_array = { array = temp_pp_array value = mtth:pp3 } add_to_temp_array = { array = temp_pp_array value = mtth:pp4 } add_to_temp_array = { array = temp_pp_array value = mtth:pp5 } add_to_temp_array = { array = temp_pp_array value = mtth:pp6 } add_to_temp_array = { array = temp_pp_array value = mtth:pp7 } add_to_temp_array = { array = temp_pp_array value = mtth:pp8 } add_to_temp_array = { array = temp_pp_array value = mtth:pp9 } add_to_temp_array = { array = temp_pp_array value = mtth:pp10 } add_to_temp_array = { array = temp_pp_array value = mtth:pp11 } add_to_temp_array = { array = temp_pp_array value = mtth:pp12 } if = { limit = { check_variable = { SexWithQiuQi_index > 0 } check_variable = { temp_pp_array^0 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 1 } check_variable = { temp_pp_array^1 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 2 } check_variable = { temp_pp_array^2 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 3 } check_variable = { temp_pp_array^3 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 4 } check_variable = { temp_pp_array^4 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 5 } check_variable = { temp_pp_array^5 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 6 } check_variable = { temp_pp_array^6 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 7 } check_variable = { temp_pp_array^7 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 8 } check_variable = { temp_pp_array^8 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 9 } check_variable = { temp_pp_array^9 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 10 } check_variable = { temp_pp_array^10 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } if = { limit = { check_variable = { SexWithQiuQi_index > 11 } check_variable = { temp_pp_array^11 > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } set_temp_variable = { temp_lbg_y = temp_base_y } set_temp_variable = { temp_cbg_y = temp_base_y } set_temp_variable = { temp_ccb_y = temp_base_y } set_temp_variable = { temp_nme_y = temp_base_y } add_to_temp_variable = { temp_lbg_y = 5 } add_to_temp_variable = { temp_cbg_y = 2 } add_to_temp_variable = { temp_ccb_y = 6 } add_to_temp_variable = { temp_nme_y = 4 } }
 			lbg_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } is_in_array = { array = ROOT.SWQQLeadPtyFacArray value = SexWithQiuQi_index } }
 			cbg_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } }
 			ccb_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } }
