@@ -1,0 +1,12 @@
+scripted_gui = {
+	SexWithQiuQiWindow = {
+		context_type = player_context
+		window_name = "SexWithQiuQiWindow"
+		parent_window_name = "SexWithQiuQiView"
+		visible = { always = yes }
+		dynamic_lists = { SexWithQiuQi_grid = { array = ROOT.SexWithQiuQiViewArray entry_container = SexWithQiuQi_entry change_scope = no value = SexWithQiuQi_value } }
+		properties = {
+			AkinoEroShashin = { image = GFX_AkinoEroShashin_[?SexWithQiuQi_value] }
+		}
+	}
+}

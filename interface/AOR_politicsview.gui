@@ -4,7 +4,7 @@ guiTypes = {
 		position = { x = 300 y = 150 }
 		instantTextboxType = {
 			name = "ruling_party_name"
-			position = { x = -50 y = 95 }
+			position = { x = -50 y = 95000 }
 			font = "hoi_16mbs"
 			text = "ruling_party_name"
 			maxWidth = 250
