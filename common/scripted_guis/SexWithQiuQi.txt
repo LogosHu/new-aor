@@ -1,0 +1,21 @@
+scripted_gui = {
+	SexWithQiuQiWindow = {
+		context_type = player_context window_name = "SexWithQiuQiWindow" parent_window_name = "SexWithQiuQiView" visible = { always = yes }
+		dynamic_lists = { SexWithQiuQi_grid = { array = ROOT.SexWithQiuQiViewArray entry_container = SexWithQiuQi_entry change_scope = no value = SexWithQiuQi_value index = SexWithQiuQi_index } }
+		triggers = {
+			cbg_click_enabled = { clear_temp_array = temp_pp_array set_temp_variable = { Threshold = 0 } set_temp_variable = { base_y = 17 } add_to_temp_array = { array = temp_pp_array value = mtth:pp0 } add_to_temp_array = { array = temp_pp_array value = mtth:pp1 } add_to_temp_array = { array = temp_pp_array value = mtth:pp2 } add_to_temp_array = { array = temp_pp_array value = mtth:pp3 } add_to_temp_array = { array = temp_pp_array value = mtth:pp4 } add_to_temp_array = { array = temp_pp_array value = mtth:pp5 } add_to_temp_array = { array = temp_pp_array value = mtth:pp6 } add_to_temp_array = { array = temp_pp_array value = mtth:pp7 } add_to_temp_array = { array = temp_pp_array value = mtth:pp8 } add_to_temp_array = { array = temp_pp_array value = mtth:pp9 } add_to_temp_array = { array = temp_pp_array value = mtth:pp10 } add_to_temp_array = { array = temp_pp_array value = mtth:pp11 } add_to_temp_array = { array = temp_pp_array value = mtth:pp12 } if = { limit = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } } add_to_temp_variable = { temp_base_y = base_y } } set_temp_variable = { temp_lbg_y = temp_base_y } set_temp_variable = { temp_cbg_y = temp_base_y } set_temp_variable = { temp_ccb_y = temp_base_y } set_temp_variable = { temp_nme_y = temp_base_y } add_to_temp_variable = { temp_lbg_y = -12 } add_to_temp_variable = { temp_cbg_y = -15 } add_to_temp_variable = { temp_ccb_y = -11 } add_to_temp_variable = { temp_nme_y = -13 } }
+			lbg_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } is_in_array = { array = ROOT.SWQQLeadPtyFacArray value = SexWithQiuQi_index } }
+			cbg_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } }
+			ccb_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } }
+			nme_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } }
+			AkinoEroShashin_visible = { check_variable = { temp_pp_array^SexWithQiuQi_index > Threshold } }
+		}
+		properties = {
+			lbg = { y = temp_lbg_y }
+			cbg = { y = temp_cbg_y }
+			ccb = { y = temp_ccb_y image = GFX_PPCol_P[?SexWithQiuQi_index] frame = 100 }
+			nme = { y = temp_nme_y }
+			AkinoEroShashin = { y = temp_lbg_y image = GFX_AkinoEroShashin_[?SexWithQiuQi_value] }
+		}
+	}
+}

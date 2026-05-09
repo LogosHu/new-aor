@@ -25,15 +25,14 @@ guiTypes = {
 		}	
 
 		instantTextboxType = {
-			name = "political_title" #政治界面标题
-			position = { x = 68 y = 13 } #位置
-			textureFile = "" #文本无纹理文件
-			font = "hoi_36header" #字体
-			borderSize = {x = 0 y = 0} #边框尺寸
+			name = "political_title"
+			position = { x = 22 y = 12 }
+			font = "hoi_36header"
 			text = "POLITICAL_POLITICAL"
-			maxWidth = 400 #最大宽度
-			maxHeight = 20 #最大高度
-			fixedsize = yes #固定尺寸=是
+			maxWidth = 160
+			maxHeight = 20
+			fixedsize = yes
+			format = center
 		}		
 		
 		iconType ={
@@ -45,18 +44,41 @@ guiTypes = {
 		iconType ={
 			name ="pol_faction_icon"
 			spriteType = "GFX_pol_factions_strip"
-			position = { x= 208 y = 160 }
+			position = { x= 210 y = 160 }
 			Orientation = "UPPER_LEFT"
 			frame = 1
 			scale = 1
 		}
 	
-
+        containerWindowType = {
+			name = "chart_explanation"
+			position = { x = 258 y = 221 }
+			size = { width = 286 height = 154 }
+			clipping = yes
+			#drag_scroll = { left middle }
+			#verticalScrollbar = "right_vertical_slider"
+			background = {
+				name = 1
+				quadTextureSprite = GFX_tiled_air_bg
+			}margin = { right = 8}
+			gridBoxType = {
+				name = "parties_grid"
+				position = { x = 88880 y = -2 }
+				size = { width = 100%% height = 100%% }
+				slotsize = { width = 230 height = 17 }
+				format = "UPPER_LEFT"
+			}
+			containerWindowType= {
+				name = "SexWithQiuQiView"
+				position = { x = 0 y = -2 }
+				size = { width = 100%% height = 100%% }
+			}
+		}
 		
 
 		containerWindowType = {
 			name = "political_pie_chart"
-			position = { x= 218 y = 225 }
+			position = { x= 220 y = 225 }
 			size = { width=100 height=100 }
 			clipping = no
 			scale = 0.47
@@ -198,7 +220,7 @@ guiTypes = {
 
 					positionType = {
 						name = "faction_name_position" #position y will be - half the height to keep it centered
-						position = { x = 50 y = 45  }
+						position = { x = 40 y = 43  }
 					}
 
 					instantTextboxType = {
@@ -649,7 +671,7 @@ guiTypes = {
 
 		buttonType = {
 			name = "FRA_ENG_Cold_War_button" #冷战按钮
-			position = { x = 275 y = 320 }
+			position = { x = 275 y = 315 }
 			quadTextureSprite = "GFX_icon_manage_subjects"
 			buttonFont = "hoi_16mbs"				
 		}	
@@ -1094,7 +1116,7 @@ guiTypes = {
 			font = "hoi_16mbs"
 			text = "party name"
 			fixedsize = yes
-			maxWidth = 170
+			maxWidth = 166
 			maxHeight = 18
 		}
 	}

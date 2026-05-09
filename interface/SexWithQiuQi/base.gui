@@ -1,0 +1,61 @@
+guiTypes = {
+	containerWindowType = {
+		name = "SexWithQiuQiWindow"
+		size = { width=100% height=100% }
+		position = { x = 0 y =0 }
+		background = {
+		    name = "bg"
+			quadTextureSprite ="GFX_tiled_air_bg"
+			alwaystransparent = yes
+		}
+		gridboxtype = {
+			name = "SexWithQiuQi_grid"
+			position = { x = 0 y = 0 }
+			size = { width = 1 height = 1 }
+			slotsize = { width = 0 height = 0 } # real { width = 10 height = 17 }
+			max_slots = { x = 1 y = 101 }
+			format = "UPPER_LEFT"
+		}
+	}
+	containerWindowType = {
+		name = "SexWithQiuQi_entry"
+		position = { x=0 y=0 }
+		size = { width = 1 height = 17 }
+		moveable = no
+		clipping = no
+		iconType = {
+			name = "lbg"
+			position = { x = 60 y = 5 }
+			spriteType = "GFX_leading_pol_party_bg"
+		}
+		buttonType = {
+			name = "cbg"
+			position = { x = 60 y = 2 }
+			spriteType = "GFX_pol_party_colour_bg"
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "ccb"
+			position = { x = 65 y = 6 }
+			spriteType = "GFX_pol_party_colour"
+		}
+		buttonType = {
+			name = "nme"
+			position = { x = 82 y = 4 }
+			font = "hoi_16mbs"
+			buttonText = "[SWQQNme]"
+			# fixedsize = yes
+			# maxWidth = 180
+			# maxHeight = 18
+			quadTextureSprite = GFX_180x18
+			format = left
+			alwaystransparent = yes
+		}
+		iconType = {
+		    name = AkinoEroShashin
+			position = { x = 264 y = 5 }
+			spriteType = GFX_navy_experience
+            pdx_tooltip = "SexWithQiuQi_tt"
+		}
+	}
+}

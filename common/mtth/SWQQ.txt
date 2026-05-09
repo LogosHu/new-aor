@@ -1,0 +1,182 @@
+pp0 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@Anarcho
+	}
+}
+pp1 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@Marxism
+	}
+}
+pp2 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@PAR_socialism
+	}
+}
+pp3 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@REL_socialism
+	}
+}
+pp4 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@AGR_socialism
+	}
+}
+pp5 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@SOC_democratic
+	}
+}
+pp6 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@FRE_democratic
+	}
+}
+pp7 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@CON_democratic
+	}
+}
+pp8 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@AUT_democratic
+	}
+}
+pp9 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@ISL_democratic
+	}
+}
+pp10 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@Absolutism
+	}
+}
+pp11 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@Fascism
+	}
+}
+pp12 = {
+	base = 0
+	modifier = {
+		add = party_popularity_100@Special
+	}
+}
+ppr0 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@Anarcho }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr1 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@Marxism }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr2 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@PAR_socialism }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr3 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@REL_socialism }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr4 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@AGR_socialism }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr5 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@SOC_democratic }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr6 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@FRE_democratic }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr7 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@CON_democratic }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr8 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@AUT_democratic }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr9 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@ISL_democratic }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr10 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@Absolutism }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr11 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@Fascism }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}
+ppr12 = {
+	base = 0
+	modifier = {
+		set_temp_variable = { ppround = party_popularity_100@Special }
+		round_temp_variable = ppround
+		add = ppround
+	}
+}

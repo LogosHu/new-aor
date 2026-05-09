@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_180x18"
+		texturefile = "gfx/interface/180x18.png"
+		noOfFrames = 1
+	}
+}

@@ -1,0 +1,145 @@
+spriteTypes = {
+	progressbartype = {
+		name = GFX_PPCol_P0
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.357 0.031 0.031 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P1
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.702 0.031 0.122 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P2
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.780 0.361 0.361 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P3
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.851 0.325 0.420 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P4
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.820 0.298 0.243 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P5
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.780 0.071 0.380 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P6
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.000 0.525 0.749 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P7
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.063 0.180 0.502 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P8
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.180 0.408 0.447 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P9
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.141 0.510 0.263 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P10
+		steps = 1000000
+		color = { 0.011 0.011 0.0 0.0 }
+		colortwo = { 0.580 0.569 0.561 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P11
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.451 0.227 0.031 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+	progressbartype = {
+		name = GFX_PPCol_P12
+		steps = 1000000
+		color = { 0.012 0.012 0.0 0.0 }
+		colortwo = { 0.0 0.0 0.0 0.85 }
+		size = {
+			x = 11
+			y = 11
+		}
+		effectFile = "gfx/FX/BarChart.lua"
+	}
+}
