@@ -162,18 +162,18 @@ create_country_leader = {
 	}
 }
 
-create_faction =  confederation_of_Deutschland
-add_to_faction = GER
-add_to_faction = SIL
-add_to_faction = KSH
-#add_to_faction = BAV
-#add_to_faction = NAU
-add_to_faction = MEK
-add_to_faction = PRE
-#add_to_faction = SHL
-add_to_faction = HAN
-#add_to_faction = WUR
-add_to_faction = SAX
+# create_faction =  confederation_of_Deutschland
+# add_to_faction = GER
+# add_to_faction = SIL
+# add_to_faction = KSH
+# #add_to_faction = BAV
+# #add_to_faction = NAU
+# add_to_faction = MEK
+# add_to_faction = PRE
+# #add_to_faction = SHL
+# add_to_faction = HAN
+# #add_to_faction = WUR
+# add_to_faction = SAX
 
 add_equipment_to_stockpile = {
     type = infantry_equipment
