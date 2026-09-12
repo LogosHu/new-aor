@@ -7,18 +7,18 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = EGY
+		owner = LBA
 		buildings = {
 			infrastructure = 0
 		}
 
-		add_core_of = EGY
-		add_claim_by = ENG
+		add_core_of = LBA
+		add_claim_by = EGY
 
 	}
 
 	provinces={
-	 10869 10907 12733 12764 12816 
+	 10869 10907 12733 12764 
 	}
 
 	local_supplies=0.0 

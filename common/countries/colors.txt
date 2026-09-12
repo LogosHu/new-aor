@@ -828,8 +828,8 @@ DAH = {
 	color_ui = rgb { 35 52 176 }
 }
 BYA = {
-	color = rgb { 0 64 255 }
-	color_ui = rgb { 0 45 179 }
+	color = rgb { 95 107 82 }
+	color_ui = rgb { 95 107 82 }
 }
 FER = {
 	color = rgb { 179 45 0 }

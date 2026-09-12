@@ -2,7 +2,7 @@
 state={
 	id=971
 	name="STATE_971"
-	manpower = 2005
+	manpower = 500
 	
 	state_category = wasteland
 
@@ -15,10 +15,11 @@ state={
 			infrastructure = 0
 		}
 		add_core_of = LBA
+		add_claim_by = SUD
 	}
 
 	provinces={
-         10754 4060 1140 1060
+         13259
 	}
 
 	local_supplies=0.0 

@@ -10,7 +10,7 @@ state = {
 	}
 
 	history = {
-		owner = ARU
+		owner = BYA
 		victory_points = {
 			4705 1 
 		}
@@ -18,7 +18,7 @@ state = {
 			infrastructure = 2
 			air_base = 2
 		}
-		add_core_of = FER
+		add_core_of = BYA
 		add_core_of = RUS
         add_core_of = ARU
 	}
