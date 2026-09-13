@@ -8,7 +8,8 @@ state={
 	}
 
 	history={
-		owner = PYO
+		owner = KOR
+		set_demilitarized_zone = yes
 		buildings = {
 
 		}
